@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>APP Academi@ Digital</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/lib/base-64/base64.js"></script>
+    <script type="text/javascript" src="assets/lib/larder/larder.js"></script>
+    <script type="text/javascript" src="assets/lib/gitters/gitters.js"></script>
+    <script type="text/javascript" src="assets/lib/bragit/bragit.js"></script>
+   <script src="https://kit.fontawesome.com/d03f4c8ad4.js" crossorigin="anonymous"></script>
+    <script>var redirect = location.href</script>
+    <script type="text/javascript" src="ghspa.js"></script>
+    <script>
+      $(function() {
+          if (location.href != redirect) {
+              $('#message').html('Coming at you from')
+              $('#message-detail').html(location.href)
+          } else {
+            $('#message').html('')
+            $('#message-detail').html('Still here at the index.html file')
+          }
+      })
+    </script>
+</head>
+<body>
+    <div class="pusher">
+        <div class="ui vertical masthead center aligned segment">
+            <div class="ui text hero container">
+                <img class="ui centered large image" src="assets\img\Logo azul Vetorizado.svg">
+                <h2 class="ui header">A Academi@ Digital está mais próxima de ti do que imaginas!
+                <div class="sub header">Para o domínio, considera: academiasercaetano </div> </h2>
+                <a class="ui grey big button" href="https://play.google.com/store/apps/details?id=com.talentlms.android"> <i class="fab fa-google-play"></i> Play Store </a>
+                <a class="ui grey big button" href="https://apps.apple.com/us/app/talentlms/id1063795268"> <i class="fab fa-apple"></i> App Store </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
